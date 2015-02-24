@@ -13,5 +13,9 @@ module Slack
       end
     end
 
+    def more changes
+      puts "there were more #{changes}"
+    end
+
   end
 end
